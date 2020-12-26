@@ -5,7 +5,7 @@ permalink: /resources/
 description: Recommended resources
 ---
 
-# Resources I commonly recommend
+# Resources I often recommend
 
 ## Books
 
