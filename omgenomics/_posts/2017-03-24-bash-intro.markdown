@@ -2,8 +2,14 @@
 layout: post
 permalink: /bash-intro/
 title:  "Introduction to bash for data analysis"
-date:   2015-03-24 15:30:38 -0800
+date:   2017-03-24 15:30:38 -0800
 ---
+
+# This video covers beginner tips for bash
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EMaFdfIlK58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The rest of this page is covering the same code as the video so you can copy-paste some of the snippets, and it has a few updates added in 2020.
 
 ## One-time command prompt setup
 
