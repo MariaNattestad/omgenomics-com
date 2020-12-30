@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /what-is-bioinformatics/
-title:  "What is bioinformatics"
+title:  "What is bioinformatics?"
 date:   2017-03-31 15:30:38 -0800
 ---
 
