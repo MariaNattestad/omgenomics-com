@@ -22,8 +22,8 @@ title: OMGenomics
 email: maria.nattestad@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   OMGenomics is a bioinformatics blog by Maria Nattestad.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://omgenomics.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "omgenomics-com/" # the subpath of your site, e.g. /blog
+url: "https://marianattestad.github.io/omgenomics-com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marianattestad
 github_username:  marianattestad
 
