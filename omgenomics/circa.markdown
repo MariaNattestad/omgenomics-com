@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Circa
+title: Circa # for the header
 permalink: /circa/
 description: Circa is GUI software for creating circos plots for genomic data.
 ---
@@ -68,7 +68,6 @@ Circa is not for you if:
 ## What do you get?
 
 When you buy Circa, you will get immediate access to download **Circa for Mac, Windows, and Linux** operating systems. You will also get a **Starter Pack** of example input files to experiment with.
-If you have any questions about Circa, check out the <a href="http://omgenomics.com/circa/help/">FAQ and tutorials</a>.
 
 ## Ready?
 

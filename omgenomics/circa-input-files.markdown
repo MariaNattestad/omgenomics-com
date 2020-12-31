@@ -2,13 +2,11 @@
 ## TODO: Make some images smaller!
 
 layout: page
-# Add a `title` to make this show up in the header
-# title: Inputs_for_Circa
 permalink: /circa/input-file-formats/
 description: A guide to preparing input files for Circa.
 ---
 
-This page describes in detail the format of input files that can be used with Circa.
+# Circa input file guide
 
 The video walks through the types of files you can plot in Circa, as well as how to export a file from Excel.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Gs4-xXn83c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

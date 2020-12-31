@@ -1,9 +1,10 @@
 ---
 layout: page
-# Add a `title` to make this show up in the header
 permalink: /circa/help
 description: Circa Tutorials and FAQ
 ---
+
+# Circa Tutorials and FAQ
 
 ## Tutorial videos
 
