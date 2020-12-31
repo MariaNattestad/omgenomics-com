@@ -5,6 +5,11 @@ permalink: /circa/
 description: Circa is GUI software for creating circos plots for genomic data.
 ---
 
+Also check out the:
+
+* [Input file guide](/circa/input-file-formats)
+* [Tutorials and FAQ](/circa/help)
+
 ## Got 1 minute? See what you can create with Circa
 
 <iframe src="https://www.youtube.com/embed/7Z1K5orBRb4?showinfo=0" width="560" height="315" allowfullscreen="allowfullscreen"></iframe>

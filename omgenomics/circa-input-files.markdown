@@ -3,7 +3,7 @@
 
 layout: page
 # Add a `title` to make this show up in the header
-title: Inputs_for_Circa
+# title: Inputs_for_Circa
 permalink: /circa/input-file-formats/
 description: A guide to preparing input files for Circa.
 ---
@@ -122,7 +122,7 @@ The files must be smaller than 10MB. Anything bigger than that would create a re
 Circa cannot read binary files or any or formats that are not human-readable in a text editor like nano, vim, or TextEdit. Excel files can be exported to CSV by going to File -> Save As… and changing the File Format in the dropdown to CSV.
 
 ## What next?
-Check out the other tutorials for Circa on the Circa tutorials page.
+Check out the other tutorials for Circa on the [Circa tutorials](/circa/help) page.
 
 If you still have a burning question, you can email me at maria@omgenomics.com.
 
