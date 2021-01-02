@@ -22,17 +22,17 @@ With Circa you can take a break from the command-line and create an entire beaut
 
 ## There are many ways to plot your data in Circa
 
-<a href="http://omgenomics.com/wp-content/uploads/2017/04/Screenshot-2017-04-20-17.27.42.png" target="_blank" rel="noreferrer noopener"><img src="http://omgenomics.com/wp-content/uploads/2017/04/Screenshot-2017-04-20-17.27.42-1024x714.png" alt="Circa screenshot circos plot types" /></a>
+![many plot types](/assets/circa/many-plot-types.png)
 
 See the [input files documentation](/circa/input-file-formats/) for explanations of all the plot types and what kinds of data they can be made from.
 
 ## See your changes immediately, no waiting to re-run a script
 
-<a href="http://omgenomics.com/wp-content/uploads/2017/04/screenshot4.png" target="_blank" rel="noreferrer noopener"><img src="http://omgenomics.com/wp-content/uploads/2017/04/screenshot4-1024x671.png" alt="Circa changing colors of circos plot" /></a>
+![custom chromosome colors](/assets/circa/custom-chromosome-colors.png)
 
-<a href="http://omgenomics.com/wp-content/uploads/2018/08/circa_color_by_a_column_in_circos_plot.png"><img src="http://omgenomics.com/wp-content/uploads/2018/08/circa_color_by_a_column_in_circos_plot-1024x576.png" alt="New Circa feature: color by a data column" /></a>
+![color by a data column](/assets/circa/color-by-column-annotated.png)
 
-<a href="http://omgenomics.com/wp-content/uploads/2018/08/circa_rotate_text_and_add_position_axis_ticks_in_circos_plot.png"><img src="http://omgenomics.com/wp-content/uploads/2018/08/circa_rotate_text_and_add_position_axis_ticks_in_circos_plot-1024x576.png" alt="New Circa features: text rotation and genomic position axis" /></a>
+![text rotations](/assets/circa/text-rotations.png)
 
 ## Save and share your Circa plots
 
