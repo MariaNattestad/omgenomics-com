@@ -88,7 +88,7 @@ The layer types above can also be colored by a column. Here we color the innermo
 ![coloring by a column](/assets/circa/color-by-column.png)
 
 ### Connecting 2 positions in the genome
-To draw connections or ribbons, since these connect two positions in the genome, the file will need to have two sets of chromosome and position:
+To draw connections or ribbons, since these connect two positions in the genome, the file will need to have two pairs of chromosomes and positions:
 ```
 #chrom1,start1,stop1,chrom2,start2,stop2
 1,0,200000000,6,0,100000000

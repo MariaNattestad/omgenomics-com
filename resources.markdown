@@ -7,6 +7,10 @@ description: Recommended resources
 
 # Resources I often recommend
 
+First, the OMGenomics YouTube channel in case you missed it:
+
+[![The OMGenomics YouTube channel](/assets/youtube-what-is-bioinformatics-video.png){:height="160px"}](https://youtube.com/omgenomics)
+
 ## Courses
 
 * [Conquering Data Analysis in R](https://omgenomics.teachable.com/p/conquering-data-analysis-in-r) (plugging my own course here): An introduction to data analysis, plotting, data wrangling, statistics, and PCA in R for beginners. This is a paid course, but if you are looking for something free, I have an older course called [Plotting in R for biologists](http://marianattestad.com/blog) that covers some of the same topics.
