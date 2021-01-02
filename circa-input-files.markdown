@@ -54,7 +54,7 @@ C 20  31  20  21
 
 Note the first column has chromosome names and the second column contains the sizes 10, 10, and 20. Then loading that into Circa produces the following base plot:
 
-![Circa plot made with the genome file above](/assets/circa/fasta_genome_file_toy_example_circa.png)
+![Circa plot made with the genome file above](/assets/circa/fasta_genome_file_toy_example_circa.png){:width="300px"}
 
 Notice here that the chromosome segments (10, 10, and 20) yield a sum of 40, so the first two chromosomes each take up 10/40 = one quarter of the circle, and chromosome C takes up 20/40 = one half of the circle.
 
@@ -72,11 +72,11 @@ Here is an example:
 ```
 This one file can be used to draw various kinds of layer types:
 
-![rectangles](/assets/circa/rectangles-layer.png)
-![scatter](/assets/circa/scatter-layer.png)
-![line](/assets/circa/line-layer.png)
-![area](/assets/circa/area-layer.png)
-![text](/assets/circa/text-layer.png)
+![rectangles](/assets/circa/rectangles-layer.png){:width="200px"}
+![scatter](/assets/circa/scatter-layer.png){:width="200px"}
+![line](/assets/circa/line-layer.png){:width="200px"}
+![area](/assets/circa/area-layer.png){:width="200px"}
+![text](/assets/circa/text-layer.png){:width="200px"}
 
 Notice that all layer types have at least a chromosome and one position, while each has some additional information to convey in Step 3 of each screenshot above.
 * rectangles have both a `start` and `end` point instead of a single `position`.
@@ -87,34 +87,34 @@ The layer types above can also be colored by a column. Here we color the innermo
 
 ![coloring by a column](/assets/circa/color-by-column.png)
 
+### Connecting 2 positions in the genome
 To draw connections or ribbons, since these connect two positions in the genome, the file will need to have two sets of chromosome and position:
-
+```
 #chrom1,start1,stop1,chrom2,start2,stop2
 1,0,200000000,6,0,100000000
 8,0,40000000,X,60000000,2000000
-The data file above produces the following ribbons:
+```
+The data file above produces the following ribbons given the settings shown:
 
-![ribbons settings](/assets/circa/ribbons-layer.png)
-![ribbons plot](/assets/circa/simple-ribbons-plot.png)
-
-Settings for ribbons in CircaRibbons in Circa
+![ribbons settings](/assets/circa/ribbons-layer.png){:width="200px"}
+![ribbons plot](/assets/circa/simple-ribbons-plot.png){:width="400px"}
 
 The difference between ribbons and connections is that ribbons use both the start and stop positions to connect two sequences, while connections use only one position to connect two points in the genome.
 
-The same file above also produces the following connections:
+The same file above produces the following connections given the settings shown:
 
-![connections settings](/assets/circa/connections-layer.png)
-![connections plot](/assets/circa/simple-connections-plot.png)
+![connections settings](/assets/circa/connections-layer.png){:width="200px"}
+![connections plot](/assets/circa/simple-connections-plot.png){:width="400px"}
 
 ## More notes on file formats
 ### Rows and columns
 Each file must be neatly formatted into rows and columns, where columns are separated by tabs, spaces, or commas. The delimiter is detected automatically.
 
 ### Header
-Each file must have a header in the first row, which gives the name for each column.
+Each file must have a header in the first row, which gives the name for each column. See examples above.
 
 ### Size
-The files must be smaller than 10MB. Anything bigger than that would create a really crowded plot anyway, so it is best to filter your data or consolidate it if the file is too big. This will also better show the information you are trying to convey
+The files must be smaller than 10MB. Anything bigger than that would create a really crowded plot anyway, so it is best to filter your data or consolidate it if the file is too big. This will also better show the information you are trying to convey.
 
 ### Text files
 Circa cannot read binary files or any or formats that are not human-readable in a text editor like nano, vim, or TextEdit. Excel files can be exported to CSV by going to File -> Save As… and changing the File Format in the dropdown to CSV.
