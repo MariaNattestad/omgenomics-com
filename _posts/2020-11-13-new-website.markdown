@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Remaking this website"
-date:   2020-11-13 14:30:38 -0800
+date:   2021-01-02 17:00:00 -0800
 subtitle: Booting Wordpress in favor of Jekyll and hosting on GitHub pages.
 ---
 
@@ -11,7 +11,7 @@ Also why even bother with themes? What really matters is the content, like on Me
 
 I also decided that my sales page for Circa was too sales-y, I was just following best practices from the online business crowd but it feels a little cringe-worthy to me.
 
-So I'm redoing it all. I'm using **Jekyll with GitHub pages**, and hopefully it will lower the frustration barriers that have subtly nudged me away from making improvements to the site and adding new content.
+So I'm redoing it all (well, since you're reading this, it means it's done!). I'm using **Jekyll with GitHub pages**, and hopefully it will lower the frustration barriers that have subtly nudged me away from making improvements to the site and adding new content.
 
 I might write more posts too, like this one, but until then most of the good stuff is in two places:
 
