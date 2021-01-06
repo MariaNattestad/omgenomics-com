@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /r/
+permalink: /R/
 description: "Get some Quick Wins in R"
 ---
 
