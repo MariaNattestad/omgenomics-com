@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /bash-script/
+permalink: /writing-bash-script/
 title:  "How to write a bash script"
 date:   2017-04-24 15:30:38 -0800
 ---
