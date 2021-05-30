@@ -2,6 +2,8 @@
 layout: page
 permalink: /R/
 description: "Get some Quick Wins in R"
+redirect_from:
+  - /r
 ---
 
 Skip the long coding lessons and get some Quick Wins in R with the Ultimate Beginner’s Cheat Sheet.

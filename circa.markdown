@@ -3,6 +3,9 @@ layout: page
 title: Circa # for the header
 permalink: /circa/
 description: Circa is GUI software for creating circos plots for genomic data.
+redirect_from:
+  - /CIRCA
+  - /Circa
 ---
 
 Also check out the:
