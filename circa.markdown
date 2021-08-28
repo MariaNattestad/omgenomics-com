@@ -10,6 +10,7 @@ redirect_from:
 
 Also check out the:
 
+* [Gallery of published figures made using Circa](/circa/gallery)
 * [Input file guide](/circa/input-file-formats)
 * [Tutorials and FAQ](/circa/help)
 
