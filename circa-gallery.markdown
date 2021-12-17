@@ -10,6 +10,10 @@ This page is a gallery of paper figures made using Circa. If I missed your paper
 
 #### 12/2021 [Cancer Research] [Transcriptional Reprogramming Differentiates Active from Inactive ESR1 Fusions in Endocrine Therapy-Refractory Metastatic Breast Cancer](https://cancerres.aacrjournals.org/content/81/24/6259)
 
+![](/assets/circa/gallery/cancer-research-cover-mini.png)
+
+![](/assets/circa/gallery/cancer-research-cover.png)
+
 Here's a Circa figure on the cover of Cancer Research :)
 
 #### 09/01/2021 [Genomics] [Intracellular DNA transfer events restricted to the genus Convallaria within the Asparagaceae family: Possible mechanisms and potential as genetic markers for biographical studies](https://www.sciencedirect.com/science/article/pii/S0888754321002494)
