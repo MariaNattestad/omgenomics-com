@@ -12,10 +12,6 @@ This page is a gallery of paper figures made using Circa. If I missed your paper
 
 ![](/assets/circa/gallery/cancer-research-cover-mini.png)
 
-![](/assets/circa/gallery/cancer-research-cover.png)
-
-Here's a Circa figure on the cover of Cancer Research :)
-
 #### 09/01/2021 [Genomics] [Intracellular DNA transfer events restricted to the genus Convallaria within the Asparagaceae family: Possible mechanisms and potential as genetic markers for biographical studies](https://www.sciencedirect.com/science/article/pii/S0888754321002494)
 
 <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 589.33px;">![](/assets/circa/gallery/image2.png)</span>
