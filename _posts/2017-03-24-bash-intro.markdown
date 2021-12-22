@@ -11,6 +11,8 @@ date:   2017-03-24 15:30:38 -0800
 
 The rest of this page is covering the same code as the video so you can copy-paste some of the snippets, and it has a few updates added in 2020.
 
+**Update 2021**: Here is a quick guide to [adapting to ZSH](/adapting-to-zsh/), which is the new default on Macs now. If your computer uses ZSH, skip the command prompt setup below, follow the new guide instead if you want, and just skip to "basic navigation".
+
 ## One-time command prompt setup
 
 Start by opening the terminal. (On a Mac, hit command-space and type in terminal.)

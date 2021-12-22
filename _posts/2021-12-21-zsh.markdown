@@ -1,0 +1,62 @@
+---
+layout: post
+permalink: /adapting-to-zsh/
+title:  "Adapting to zsh"
+date:   2021-12-21 17:00:00 -0800
+subtitle: Some quick steps I took to make the command-line work for me again after zsh suddenly pushed its way into my world
+---
+
+I had my little world all nicely set up on the command-line in bash with my customized command prompt and everything, but then `zsh` came along and kind of messed all that up, ignoring my carefully constructed `~/.bash_profile`. 
+
+This is a quick list of things I did to get my command-line back to feeling good again.
+
+## Installed  oh-my-zsh
+
+Everyone seems to be using this. I did find some skeptics and understood their points that this might be unnecessary, but right now I'm happy to be following the crowd to get an environment that works as much like most tutorials I might see online. So I'm going with it for now.
+
+Note that instead of editing the `~/.bashrc` or `~/.bash_profile` like we did back in bash, you want to find the new `~/.zshrc`.
+
+## First pick a theme I can live with
+
+I chose a theme by setting `ZSH_THEME="random"` in `~/.zshrc`, then opening several new terminals so each had a different random theme, and I played with them until I found one I liked the most. This is totally a matter of personal taste, but the only thing I care about is being able to see the path of my current directory, not just the name (`my-directory`), but the whole path (`~/path/to/my-directory`). In git repos I also want to see the name of the current branch. This was actually a bit more annoying to achieve back in the bash world where I had to do more research to get the same thing working, so I'm not too unhappy right now. I ended up liking this theme: `ZSH_THEME="macovsky-ruby"`.
+
+##  Added my usual aliases for ll and l
+
+With just zsh my usual `ll` that I kept typing by muscle memory was "not found", but after installing oh-my-zsh it at least exists as an alias. I have my own favorite way of sorting files though, so I overwrote that.
+
+Edited the `~/.zshrc` file:
+
+```
+vim ~/.zshrc
+
+# Add the following to the bottom of the file:
+alias ll="ls -ltrsho"
+alias l='less -S'
+```
+
+## Add some fancy new plugins to try
+
+Here are a couple of plugins I heard good things about and wanted to try.
+I tried adding zsh-autosuggestions and zsh-syntax-highlighting to plugins in the `~/.zshrc` file:
+
+In `~/.zshrc`, I changed the plugins list:
+
+```
+# from this:
+plugins=(git)
+# to this:
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+but they are unrecognized, meaning opening a new terminal window shows an error that they are not found. First, I had to do this to install them where oh-my-zsh can find them:
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+Now when starting a new shell window, they are loaded correctly.
+
+## Conclusion
+
+There are clearly more things to play with, but for now my command-line is back to feeling comfortable to me again :)
