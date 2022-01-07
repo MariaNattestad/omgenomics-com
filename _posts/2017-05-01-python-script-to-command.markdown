@@ -3,6 +3,8 @@ layout: post
 permalink: /python-command-line-program/
 title:  "How to turn a python script into a command-line program"
 date:   2017-05-01 15:30:38 -0800
+redirect_from:
+  - /E009
 ---
 
 # You can use the argparse package to easily turn a python script into a command-line program
