@@ -1,6 +1,7 @@
 ---
-layout: post
 title:  "How to edit files from the command-line"
+permalink: /vim/
+layout: post
 ---
 
 * So you find yourself ssh-d into some server and you need to be able to edit files. It seems like this should be simple, but maybe you’ve only used text editors from your own laptop before with menus to help you find all the functionality you need. VSCode is a solid choice for your main text editor, but when you’re ssh-ing into a virtual machine on the cloud, for example, you’ll need to use whatever it has available. Usually this means nano or vim.

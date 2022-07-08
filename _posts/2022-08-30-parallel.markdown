@@ -1,6 +1,7 @@
 ---
-layout: post
 title:  "Using GNU parallel painlessly"
+permalink: /parallel/
+layout: post
 ---
 
 ## Download/install GNU parallel
