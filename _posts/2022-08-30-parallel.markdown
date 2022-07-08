@@ -1,10 +1,15 @@
-# Using GNU parallel painlessly
+---
+layout: post
+title:  "Using GNU parallel painlessly"
+---
 
 ## Download/install GNU parallel
 
-https://www.gnu.org/software/parallel/
+You might already have parallel on your computer, so just try `parallel --help` and see if that works. You should also make sure you have GNU parallel, not something else: Try `parallel --help | grep "GNU"` and make sure you see a few lines of output from that, otherwise install GNU parallel using the link or instructions below.
 
-Here are a few examples of common ways to install, otherwise follow the link above:
+[https://www.gnu.org/software/parallel/](https://www.gnu.org/software/parallel/)
+
+Here are a few examples of common ways to install:
 
 ```bash
 # On Mac, if you have homebrew:
@@ -13,6 +18,8 @@ brew install parallel
 # On linux:
 sudo apt-get install parallel
 ```
+
+If these don't work, follow the instructions in the link above instead.
 
 ## Basic examples
 

@@ -1,20 +1,23 @@
-# How to edit files from the command-line
+---
+layout: post
+title:  "How to edit files from the command-line"
+---
 
 * So you find yourself ssh-d into some server and you need to be able to edit files. It seems like this should be simple, but maybe you’ve only used text editors from your own laptop before with menus to help you find all the functionality you need. VSCode is a solid choice for your main text editor, but when you’re ssh-ing into a virtual machine on the cloud, for example, you’ll need to use whatever it has available. Usually this means nano or vim.
 * This is a common problem for those of us in bioinformatics where most of our tools are run from the command-line, and we might be writing scripts to orchestrate jobs across a university cluster or the cloud. 
-* You might see other videos on vim telling you that it’s better than VSCode because you can keep your hands on the keyboard, but honestly, I don’t think it’s my physical speed at writing code that is the bottleneck in my work, and even if it was, you can totally keep your hands on the keyboard the whole time while using VSCode. No, I use VSCode most of the time, but it’s still nice to be able to edit files straight from the command line where I spend so much time already, especially when the alternative is editing in VSCode and then using “scp” to copy the file onto the VM again and again.
-* When I was new to the command line, I first started using nano, maybe because it was the first editor I found and maybe because it seemed less scary because the basic command keys are listed on the screen. But vim is much more powerful, and it’s good to get used to because some tools like git will just drop you into vim without giving you a choice in the matter. But I’ll give you a cheat sheet of a few vim commands, and then you can tape them to your monitor if needed until you get used to it, and now it’s just as easy to use as nano, so you can stop using nano.
-* Show them the vim basics and point them to a cheat sheet in the description.
+* You might see other videos about vim telling you that it’s better than VSCode because you can keep your hands on the keyboard, but honestly, I don’t think it’s my physical speed at writing code that is the bottleneck in my work, and even if it was, you can totally keep your hands on the keyboard the whole time while using VSCode. No, I use VSCode most of the time, but it’s still nice to be able to edit files straight from the command line where I spend so much time already, especially when the alternative is editing in VSCode and then using “scp” to copy the file onto the VM again and again.
+* When I was new to the command line, I first started using nano, maybe because it was the first editor I found and maybe because it seemed less scary because the basic command keys are listed on the screen. But vim is much more powerful, and it’s good to get used to because some tools like git will just drop you into vim without giving you a choice in the matter (e.g. this happens when you do `git commit`). But I’ll show you a few basics, and you can write yourself a post-it with a few vim commands that you can tape them to your monitor if needed until you get used to it, and now it’s just as easy to use as nano, so you can stop using nano.
+* Here I'll show you the basics that I personally use all the time.
 
 ## Minimum necessary commands
 
 * Start editing: `i`. This enters insert mode -- unlike other editors you need to do this first before you can type something, which is usually the confusing part for a new user.
-    * **For everything else below you'll need to exit insert mode using the `<escape key>`.**
+    * **For everything else below you'll need to exit insert mode using the `<escape>` key.**
 * Write to file: `:w` to write (save your work) or `:wq` to write and quit. (remember `<escape>` to exit insert mode first)
 * Exit without saving: `:q!` which is like "quit, yes I mean it". (remember `<escape>` to exit insert mode first)
 * `u` to undo, `<control>r` to redo
 
-Note some tutorials and people online will tell you to navigate with the keys `hjkl`, but you can totally use the arrow keys too, which I find a lot more natural. You can also hold down `<fn key>` and press an arrow key to jump farther.
+Note some tutorials and people online will tell you to navigate with the keys `hjkl`, but you can totally use the arrow keys too, which I find a lot more natural. You can also hold down the `<fn>` and press an arrow key to jump farther.
 
 ## Get out of trouble
 
@@ -33,4 +36,4 @@ Note some tutorials and people online will tell you to navigate with the keys `h
 
 ## Going further
 
-You can also try the official tutorial with `vimtutor` (literally just type this into the command line), read the manuals at the end of that, or search Google/StackOverflow, and YouTube for more tricks.
+You can also try the official tutorial with `vimtutor` (literally just type that into the command line), read the manuals at the end of that, or search Google/StackOverflow, and YouTube for more tricks.
