@@ -8,11 +8,12 @@ redirect_from:
   - /Circa
 ---
 
-Also check out the:
+Quick links:
 
 * [Gallery of published figures made using Circa](/circa/gallery)
 * [Input file guide](/circa/input-file-formats)
 * [Tutorials and FAQ](/circa/help)
+* [Buy Circa](https://gum.co/circa)
 
 ## Got 1 minute? See what you can create with Circa
 
