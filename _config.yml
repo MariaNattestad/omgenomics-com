@@ -46,7 +46,7 @@ whitelist:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-header_pages: [circa.markdown, resources.markdown, about.markdown]
+header_pages: [circa.markdown, podcast.markdown, resources.markdown, about.markdown]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
