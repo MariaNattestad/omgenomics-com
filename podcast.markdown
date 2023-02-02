@@ -11,6 +11,7 @@ layout: page
 * [on Spotify](https://open.spotify.com/show/3ec4cOpzjOjCNv7d17NpV6?si=1614dee4da454faa)
 * [on Stitcher](https://www.stitcher.com/show/1055587)
 * [on YouTube](https://youtu.be/5R382nQnE24)
+* [raw RSS feed](https://pub-848e4e33278f498682507e7a1971fa70.r2.dev/feed.xml)
 * Can't find OMGenomics on your favorite podcast app? Please let us know by emailing maria@omgenomics.com!
 
 ## Ask a question
