@@ -4,6 +4,8 @@ permalink: /vim/
 layout: post
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iRoR6-dixxU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * So you find yourself ssh-d into some server and you need to be able to edit files. It seems like this should be simple, but maybe you’ve only used text editors from your own laptop before with menus to help you find all the functionality you need. VSCode is a solid choice for your main text editor, but when you’re ssh-ing into a virtual machine on the cloud, for example, you’ll need to use whatever it has available. Usually this means nano or vim.
 * This is a common problem for those of us in bioinformatics where most of our tools are run from the command-line, and we might be writing scripts to orchestrate jobs across a university cluster or the cloud. 
 * You might see other videos about vim telling you that it’s better than VSCode because you can keep your hands on the keyboard, but honestly, I don’t think it’s my physical speed at writing code that is the bottleneck in my work, and even if it was, you can totally keep your hands on the keyboard the whole time while using VSCode. No, I use VSCode most of the time, but it’s still nice to be able to edit files straight from the command line where I spend so much time already, especially when the alternative is editing in VSCode and then using “scp” to copy the file onto the VM again and again.
