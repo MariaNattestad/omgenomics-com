@@ -1,5 +1,5 @@
 ---
-title:  "The OMGenomics Podcast"
+title: Podcast # for the header
 permalink: /podcast/
 layout: page
 ---
