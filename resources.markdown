@@ -7,13 +7,13 @@ description: Recommended resources
 
 # Resources I often recommend
 
-First, the OMGenomics YouTube channel in case you missed it:
+First, the OMGenomics YouTube channel and podcast:
 
-[![The OMGenomics YouTube channel](/assets/youtube-what-is-bioinformatics-video.png){:height="160px"}](https://youtube.com/omgenomics)
+* [OMGenomics YouTube channel](https://youtube.com/omgenomics)
+* [OMGenomics Podcast](http://omgenomics.com/podcast/)
 
 ## Courses
 
-* [Conquering Data Analysis in R](https://omgenomics.teachable.com/p/conquering-data-analysis-in-r) (plugging my own course here): An introduction to data analysis, plotting, data wrangling, statistics, and PCA in R for beginners. This is a paid course, but if you are looking for something free, I have an older course called [Plotting in R for biologists](http://marianattestad.com/blog) that covers some of the same topics.
 * [Genomic Data Science Specialization](https://www.coursera.org/specializations/genomic-data-science) from Johns Hopkins on Coursera. Within that specialization I especially recommend Ben Langmead’s course, and you can watch those videos on his YouTube channel too: [playlist](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA).
 * [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) is great for learning the fundamental concepts in machine learning and using TensorFlow.
 
